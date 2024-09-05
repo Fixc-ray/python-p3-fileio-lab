@@ -9,7 +9,3 @@ def append_file(file_name, append_content):
 def read_file(file_name):
     with open(str(file_name) + "txt", mode="r") as file:
         print(file.read())
-        
-write_file(file-name, file_content)
-append_file(file-name, file-content)
-read_file(file_name)
